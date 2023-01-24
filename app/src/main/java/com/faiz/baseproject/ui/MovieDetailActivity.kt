@@ -27,10 +27,10 @@ class MovieDetailActivity : AppCompatActivity() {
         var image = intent.getStringExtra(Constants.IMAGE)
         var title = intent.getStringExtra(Constants.TITLE)
         var overview = intent.getStringExtra(Constants.OVERVIEW)
-//        var imageUrl = Constants.POSTER_BASE_URL + image
+        var imageUrl = Constants.POSTER_BASE_URL + image
         binding.apply {
             tvTitle.text = title
-//            ivPoster.load(imageUrl)
+            ivPoster.load(imageUrl)
             tvDescription.text = overview
         }
     }
