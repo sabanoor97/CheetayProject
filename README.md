@@ -22,8 +22,6 @@ Work manager for background process
 
 Navigation Graph
 
-SSL pining (optional)
-
 Solid principles
 
 Design patterns (Factory, Builder, Singleton, Adapter, Repository)
